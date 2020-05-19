@@ -1,0 +1,155 @@
+body:not(.jumbotron){
+	background-image: url(https://wallpapercave.com/wp/CeAyDkX.jpg);
+}
+div.jumbotron{
+	margin:0;
+}
+
+nav{
+	display: flex;
+	background: black;
+	position: sticky;
+	top: 0;
+
+}
+
+nav div{
+	display: block;
+	padding: 10px;
+}
+
+nav div a{
+	text-decoration: none;
+	color: white;
+}
+
+.trigram{
+	display: none;
+}
+
+nav div a:hover{text-decoration: none;color: white;}
+
+nav div:hover{
+	
+	background-color: rgb(43,187,252);
+}
+
+nav div.SignUp{
+	margin-left: auto;
+}
+
+
+/***********************MEDIA QUERY**************************/
+
+@media screen and (max-width: 700px)
+{
+	.trigram{
+		display: block;
+	}
+
+	.logo,.SignUp,.Login{
+		display: none;
+	}
+	
+
+}
+
+/*******************************MID SECTION************************************************/
+
+div.jumbotron{
+	background-image: url(https://webneel.com/wallpaper/sites/default/files/images/08-2018/3-nature-wallpaper-mountain.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+div.jumbotron h2{
+	padding: 12%;
+	text-align: center;
+	color: white;
+
+}
+
+div.camping img{width: 100%;}
+
+div.row.row1 div
+{
+	margin-top: 20px;
+	box-shadow: 0px 0px 5px #888888;
+}
+
+div.row.row1 img{
+
+	margin-top: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px #888888;
+}
+
+
+div.row.row1 p{
+	padding:30px;
+	text-align: center;
+}
+
+div.row.row1 div.col-lg-4.first
+{
+	border-radius:10px;
+	background-image: url(https://images.unsplash.com/photo-1539946309076-4daf2ea73899?ixlib=rb-1.2.1&w=1000&q=80);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.row.row1 div.col-lg-4.camping
+{
+	border-radius:10px;
+	background-image: url(https://i.pinimg.com/originals/ba/e1/6e/bae16eb75eefe2025cc08e8006caa5ee.jpg);
+		background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+div.row.row1 div.col-lg-4.third
+{
+	border-radius:10px;
+background-image: url(https://usewallpaper.com/upload/san-pham/Aurora-nature-wallpaper-note-10-11-iphone-12-ios-13-14-background-36-1440x2560.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.row.row1 p{
+	color: white;
+	font-family: 'Merriweather', cursive; font-size: 25px;
+}
+
+div.container.cont1{
+	margin-bottom: 10px;
+}
+
+footer
+{
+	width: 100%;
+	background-color: black;
+}
+
+footer p{
+
+	margin: 0;
+	padding: 30px;
+	color: rgb(195,195,195);
+	text-align: center;
+
+}
+
+
+/************************RESPONSIVE****************************/
+
+
+.logores{display: none;}
+
+	nav div.SignUpres{
+		margin:0;
+	}
+
+	nav.res{
+		flex-direction: column;
+	}
+	
